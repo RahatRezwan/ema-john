@@ -40,7 +40,9 @@
 }
 .btn-clear-cart {
     background-color: #ff3030;
+    cursor: pointer;
 }
 .btn-review-order {
     background-color: #ff9900;
+    text-decoration: none;
 }
