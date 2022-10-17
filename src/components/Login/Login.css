@@ -1,0 +1,119 @@
+.form-container {
+   width: 500px;
+   height: auto;
+   background: #ffffff;
+   border: 1px solid #95a0a7;
+   border-radius: 8px;
+   margin: 30px auto;
+   box-shadow: -9px 9px 1px #ffe0b3;
+}
+
+.form-title {
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 42px;
+   letter-spacing: 0.0025em;
+   color: #2a414f;
+   text-align: center;
+   margin-bottom: 29px;
+   padding: 49px 49px 0 49px;
+}
+
+form {
+   padding: 0 49px;
+}
+.form-control {
+   margin-bottom: 20px;
+}
+
+.form-control label {
+   display: block;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.0015em;
+   color: #2a414f;
+   margin-bottom: 9px;
+}
+
+.form-control input {
+   width: 380px;
+   height: 55px;
+   border: 1px solid #95a0a7;
+   border-radius: 5px;
+   padding: 0 10px;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.0015em;
+   color: #2a414f;
+}
+
+.btn-submit {
+   width: 100%;
+   height: 55px;
+   background: rgba(255, 153, 0, 0.3);
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-weight: 400;
+   font-size: 17px;
+   margin: 24px 0 9px;
+   cursor: pointer;
+}
+
+.new-user-signup p {
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 18px;
+   letter-spacing: 0.0025em;
+   color: #2a414f;
+   text-align: center;
+}
+
+.new-user-signup a {
+   text-decoration: none;
+   color: #ff9900;
+}
+
+.or {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   gap: 22px;
+   margin-top: 41px;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.005em;
+   color: #95a0a7;
+}
+.or hr {
+   width: 145px;
+   height: 0px;
+   left: 557px;
+   top: 672px;
+   border: 1px solid #95a0a7;
+}
+
+.google-btn {
+   margin: 30px 0 43px;
+   width: 100%;
+   height: 55px;
+   border: 1px solid #95a0a7;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   background-color: white;
+   cursor: pointer;
+
+   /*button Font Style */
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.005em;
+   color: #2a414f;
+}

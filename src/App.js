@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./About/About";
 import "./App.css";
+import Checkout from "./components/Checkout/Checkout";
 import Inventory from "./components/Inventory/Inventory";
 import { productsAndCartLoader } from "./components/Loaders/productsAndCartLoader";
 import Login from "./components/Login/Login";
@@ -40,6 +41,10 @@ function App() {
             {
                path: "/signup",
                element: <SignUP />,
+            },
+            {
+               path: "/checkout",
+               element: <Checkout />,
             },
          ],
       },
